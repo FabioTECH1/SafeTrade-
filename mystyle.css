@@ -1,7 +1,4 @@
-body{
-    background-image:url('body1.jpg');
-}
-
+/*   header  */
 div {
     font-family: verdana;
 }
@@ -10,13 +7,13 @@ div.top {
 }
 h3{color: rgb(90, 89, 89) ; font-family: Verdana, Geneva, Tahoma, sans-serif;}
 div.header{
-    width: 100%; background-color: #f7f7f7;
+    width: 100%; background-color: rgb(242, 242, 248)
 }
 img.logo {
     width: 120px; margin-left: 50px;
 }
 div.nav {
-    display: inline-block; 
+    display: inline-block; margin-bottom: 25px;
 }
 a.nav {
 padding: 25px ; color: honeydew; text-decoration: none; font-size: 90%;
@@ -27,11 +24,66 @@ a.nav:hover{
 }
 div.navbar {
     background-color:#252525 ; text-align: center; 
-    padding-top: 25px; padding-bottom: 25px; position: sticky; z-index: 1;
+    padding-top: 25px; padding-bottom: 0px; position: sticky; z-index: 1;
 }
+
+
+
+/*   Mid */
+div.category {
+    background-color: rgb(236, 236, 252); border-bottom: 1px solid rgb(212, 212, 255);
+    padding: 20px; text-align: left; padding-left: 15%; 
+}
+div.content{
+    width: 70%; margin-left: 15%; margin-bottom: 10%; margin-top: 3%;
+}
+
+
+
+
+/*   Footer */
+div.arrange {
+    display: block; background-image: url('map3.jpg'); text-align: left;
+}
+div.footer {
+    display: inline-flex; width: 100%; margin:auto; 
+     padding-left: 8%; margin-bottom: 0px; 
+}
+div.resources a {
+    display: block; text-decoration: none; padding: 5px;
+}
+div.resources a:hover{
+    color: khaki;
+}
+div.resources, div.contact, div.social {
+    width: 25%; display: inline-block; margin: 3%; margin-bottom: 1%;
+}
+h4.hd{
+    text-transform: uppercase;  color: khaki;
+}
+div.footer p{
+    color: rgb(247, 243, 239); font-size: 95%; 
+}
+div.footer a {
+    color: rgba(32, 178, 171, 0.952); font-size: 90%;}
+div.developer {
+    text-align: center; padding-bottom: 0.5px; padding-top: 20px;
+margin-top: 50px;
+ }
+span.developer {
+    color: rgb(204, 150, 15); text-transform: uppercase; text-shadow: 1px 1px  rgba(13, 219, 209, 0.952);
+}
+div.developer p {
+display: block; padding-top: 0px;   color: rgb(247, 243, 239);
+}
+
+
+
+/*   Home */
 #bitcoin {
     width: 100%; height: 600px;
 }
+
 .efss {
     text-align: center;  display: inline-flex; margin-left: 5%;
 }
@@ -44,6 +96,9 @@ div.efsss{
 
 .efss p.efs p.abc {
     display: inline-block; 
+}
+h2.why {
+    color: rgb(36, 25, 25);
 }
 p.efs {
     font-size: 115%; font-weight:bold; font-family: verdana; color: rgba(0, 0, 0, 0.856);
@@ -72,37 +127,88 @@ div.currentPrice, h3#cbp{
 div.currentPrice h3#cbp, div.currentPrice p.currency{
     display: inline-block; margin: 4%; margin-left: 0.5%;
 }
-div.arrange {
-    display: block; background-image: url('map.jpg');
-}
-div.footer {
-    display: inline-flex; width: 100%; margin:auto; 
-     padding-left: 8%; margin-bottom: 0px; 
-}
-div.resources a {
-    display: block; text-decoration: none; padding: 5px;
+
+
+
+
+/*   FAQS  */
+
+div.q1 {
+text-align: left; padding: 10px; border-bottom: 1px solid rgba(218, 218, 221, 0.719);
 }
 
-div.resources, div.contact, div.social {
-    width: 25%; display: inline-block; margin: 3%; margin-bottom: 1%;
+/*   testimony */
+input[type="name"]{
+    padding: 20px; width: 37%; margin: 30px;  border-radius: 5px; margin-left: 0px;
 }
-h4.hd{
-    text-transform: uppercase; color: rgb(156, 133, 4);
+input[type="Email"]{
+   padding: 20px ; width: 83%;margin: 30px; border-radius: 5px; margin-left: 0px; 
 }
-div.footer p{
-    color: rgb(247, 243, 239); font-size: 95%; 
+textarea.input{
+    border-radius: 5px; border-top: 2px solid rgb(136, 133, 133); border-left: 2px solid rgb(136, 133, 133);
+    resize: none; width: 87%; 
 }
-div.footer a {
-    color: rgba(32, 178, 171, 0.952); font-size: 90%;}
-div.developer {
-    text-align: center; padding-bottom: 0.5px; padding-top: 20px;
-margin-top: 50px;
+.input{
+    font-size: 100%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:  rgb(136, 133, 133);
+     font-weight: lighter;
+}
+input[type="submit"]{
+    padding: 20px; background-color:rgba(5, 46, 107, 0.815); border-radius: 10px;
+padding-left: 40px; padding-right: 40px; cursor: pointer; color: wheat; font-size: 120%; font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"]:hover{
+    background-color:rgb(241, 234, 220) ;color:rgb(122, 122, 122);
+    transition: ease-in;
+    transition-duration: 0.3s; 
+}
+div#cont {
+    background-color: rgb(244, 244, 253); padding: 40px; border-radius: 3px; padding-left: 8%;
+    width: 55%; padding-top: 20px; box-shadow:0 4px 8px 0 rgba(170, 169, 169, 0.8), 0 6px 20px 0 rgba(192, 192, 192, 0.6);
+
+}
+
+ /* bbitcoin  */
+ #why {
+     font-size: 145%; text-align: center;
  }
-span.developer {
-    color: rgb(204, 150, 15); text-transform: uppercase; text-shadow: 1px 1px  rgba(13, 219, 209, 0.952);
+ div.steps {
+     width: 100%;
+ }
+ div.steps p {
+     font-size: 85%;
+ }
+#bbitcoin {
+    margin: auto; display: inline-flex; padding-top: 10px; padding-left: 10%; width: 80%;
 }
-div.developer p {
-display: block; padding-top: 0px;   color: rgb(247, 243, 239);
+div.right, div.left {
+    width: 48% ; margin: 3%;
+}
+div.rate {
+   background-color: rgb(156, 240, 231, 0.85); padding: 17px; border: 1px solid rgb(220, 220, 223);
+   padding-left:30px ; padding-right: 30px; margin-bottom: 45px;
+}
+div.containrate {
+    background-color: rgb(236, 236, 252); padding: 4px; padding-left: 10x; padding-right: 10px;  
+    border: 1px solid rgb(220, 220, 223); 
+}
+div.containrate p {
+    font-size: 70%; text-align: center; font-weight: bolder; color: rgb(138, 138, 138);
+}
+div.pldetails {
+    background-color: rgb(236, 236, 252); margin-top: 0px; margin-bottom: 3%; padding-left: 40px;
+}
+div.pldetails p{
+    padding: 0px; margin: 0px; margin-bottom: 5px;
+}
+span.star{
+    color: rgb(216, 53, 53);
+}
+input[type="name1"]{
+    padding: 8px; width: 25%; margin: 15px;  border-radius: 3px; margin-left: 0px; margin-top: 0px;
+}
+input.email1{
+    padding: 8px; width: 57.5%; margin: 15px;  border-radius: 3px; margin-left: 0px; margin-top: 0px;
 }
 
 
@@ -111,9 +217,8 @@ display: block; padding-top: 0px;   color: rgb(247, 243, 239);
 
 
 @media only screen and (max-width: 800px){
-    body{
-        background-image: none;
-    }
+    
+    /* header  */
     #bitcoin {
         width: 100%; height: 500px;}
         img.logo {
@@ -123,8 +228,36 @@ display: block; padding-top: 0px;   color: rgb(247, 243, 239);
             display: block; margin:0px; padding: 4px; border-top:1px solid #ccc9c9;  
         }
         a.nav{
-            padding-left: 100%; padding-right: 100%; border: 0.5px ridge gold; border-radius: 2px;
+           border: 0.5px ridge gold; border-radius: 2px;
         }
+
+
+        
+           /*   footer  */
+           div.arrange {
+               padding-left: 15%;
+           }
+           div.footer {
+            display: block; width: 100%; padding-left: 0%; 
+          }
+          div.resources, div.contact, div.social {
+        display:block; margin:auto; text-align: left; width: 100%; padding-top: 10px;
+     padding-bottom: 3px; 
+                         }
+        div.resources {
+            padding-top: 40px;
+        }
+     div.contact p{
+         padding: 0px; margin: 3px;}
+         div.social p{
+             padding: 0px; margin: 3px; }
+             div.social h4, div.resources h4, div.contact h4 {
+                 margin: 10px;
+             }
+
+
+
+        /*   Home  */
         .easy, .fast, .safe {
             width: 88%; margin:0px; display: inline-block; text-align: left; padding: 0px;
             }
@@ -148,19 +281,11 @@ display: block; padding-top: 0px;   color: rgb(247, 243, 239);
          div.line{
             width: 95%; text-align: center; margin: auto; padding: auto;}
             div.currentPrice h3#cbp {display: block;}
-           
-                    div.footer {
-                        display: block; width: 100%; padding-left: 0%;
-                    }
-                    div.resources, div.contact, div.social {
-                     display:block; margin:auto; text-align: center; width: 100%; padding-top: 3px;
-padding-bottom: 3px; 
-                    }
-div.contact p{
-    padding: 0px; margin: 3px;}
-    div.social p{
-        padding: 0px; margin: 3px; }
-        div.social h4, div.resources h4, div.contact h4 {
-            margin: 10px;
+
+
+
+        /*  testimonial  */
+        input[type="Email"]{
+            width: 45%;
         }
 }
