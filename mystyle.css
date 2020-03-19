@@ -179,24 +179,25 @@ div#cont {
      font-size: 85%;
  }
 #bbitcoin {
-    margin: auto; display: inline-flex; padding-top: 10px; padding-left: 10%; width: 80%;
+    margin: auto; display: inline-flex; padding-top: 10px; padding-left: 10%; width: 80%; bor
 }
 div.right, div.left {
     width: 48% ; margin: 3%;
 }
 div.rate {
-   background-color: rgb(156, 240, 231, 0.85); padding: 17px; border: 1px solid rgb(220, 220, 223);
+   background-color: rgba(185, 241, 236, 0.85); padding: 17px; border: 1.5px solid rgb(156, 240, 231, 0.85);
    padding-left:30px ; padding-right: 30px; margin-bottom: 45px;
 }
 div.containrate {
     background-color: rgb(236, 236, 252); padding: 4px; padding-left: 10x; padding-right: 10px;  
-    border: 1px solid rgb(220, 220, 223); 
+    border: 2px solid rgb(236, 236, 252); font-family: 'Times New Roman', Times, serif;
 }
 div.containrate p {
-    font-size: 70%; text-align: center; font-weight: bolder; color: rgb(138, 138, 138);
+    font-size: 75%; text-align: center; font-weight: bolder; color: rgb(138, 138, 138);
 }
 div.pldetails {
     background-color: rgb(236, 236, 252); margin-top: 0px; margin-bottom: 3%; padding-left: 40px;
+    border: 1px solid  rgb(219, 219, 248); border-radius: 1px;
 }
 div.pldetails p{
     padding: 0px; margin: 0px; margin-bottom: 5px;
@@ -209,6 +210,20 @@ input[type="name1"]{
 }
 input.email1{
     padding: 8px; width: 57.5%; margin: 15px;  border-radius: 3px; margin-left: 0px; margin-top: 0px;
+}
+div.bank{
+    background-color:  rgb(236, 236, 252); font-family: 'Times New Roman', Times, serif;  font-size: 80%;
+    padding: 10px; padding-top: 5px; padding-bottom: 5px; border-radius: 10px; color: rgb(138, 138, 138);
+    width: 80%; margin-left:0%; 
+}
+div.accnt div#bank{
+    display: inline-block; width: 90%;
+}
+div.accnt div.bankimg{
+    width: 5%; display: inline-block;
+}
+select.formControl {
+    border-radius: 3px; padding: 8px; margin-bottom: 15px;
 }
 
 
@@ -288,4 +303,11 @@ input.email1{
         input[type="Email"]{
             width: 45%;
         }
+         /* bbitcoin  */
+        #bbitcoin {
+            width: 90%; padding-left: 7%; display: block;
+        }
+div.right, div.left {
+    width: 80%;
+}
 }
